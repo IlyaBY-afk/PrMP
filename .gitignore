@@ -1,0 +1,7 @@
+# Project exclude paths
+/.gradle/
+/.kotlin/
+/build/
+/composeApp/
+/gradle/
+/iosApp/
