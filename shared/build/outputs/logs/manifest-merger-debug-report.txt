@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml:2:13-83
+INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml:2:13-83
+	package
+		INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml
+	xmlns:android
+		ADDED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml:2:23-81
+uses-sdk
+INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml reason: use-sdk injection requested
+INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml
+INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml
+	android:targetSdkVersion
+		INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml
+	android:minSdkVersion
+		INJECTED from /Users/ilya/Programming/Kotlin/PrPM/PrMP/shared/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest15515363543279291992.xml
