@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Tabata Timer</string>
+    
+    <!-- Main Activity -->
+    <string name="no_workouts">You don\'t have any workouts yet. Click + to add one.</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="start">Start</string>
+    <string name="confirm_delete">Are you sure you want to delete this workout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <!-- Edit Workout Activity -->
+    <string name="edit_workout">Edit Workout</string>
+    <string name="create_workout">Create Workout</string>
+    <string name="workout_name">Workout Name</string>
+    <string name="workout_description">Description (optional)</string>
+    <string name="warmup_duration">Warmup Duration (seconds)</string>
+    <string name="work_duration">Work Duration (seconds)</string>
+    <string name="rest_duration">Rest Duration (seconds)</string>
+    <string name="cycles">Cycles</string>
+    <string name="sets">Sets</string>
+    <string name="rest_between_sets">Rest Between Sets (seconds)</string>
+    <string name="cooldown_duration">Cooldown Duration (seconds)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="workout_name_required">Workout name is required</string>
+    
+    <!-- Timer Activity -->
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="reset">Reset</string>
+    <string name="phase_warmup">WARMUP</string>
+    <string name="phase_work">WORK</string>
+    <string name="phase_rest">REST</string>
+    <string name="phase_rest_between_sets">REST</string>
+    <string name="phase_cooldown">COOLDOWN</string>
+    <string name="phase_finished">FINISHED</string>
+    <string name="cycle">Cycle</string>
+    <string name="set">Set</string>
+</resources> 

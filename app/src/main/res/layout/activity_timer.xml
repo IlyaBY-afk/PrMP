@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TimerActivity">
+
+    <TextView
+        android:id="@+id/text_workout_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="My Tabata Workout" />
+
+    <View
+        android:id="@+id/background_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:background="@color/phase_warmup"
+        app:layout_constraintTop_toBottomOf="@id/text_workout_name"
+        app:layout_constraintBottom_toTopOf="@id/button_toggle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/text_phase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toTopOf="@id/background_view"
+        app:layout_constraintStart_toStartOf="@id/background_view"
+        app:layout_constraintEnd_toEndOf="@id/background_view"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:text="WARMUP" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/text_phase"
+        app:layout_constraintStart_toStartOf="@id/background_view"
+        app:layout_constraintEnd_toEndOf="@id/background_view"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:text="00:10" />
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="32dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@android:drawable/progress_horizontal"
+        app:layout_constraintBottom_toBottomOf="@id/background_view"
+        app:layout_constraintEnd_toEndOf="@id/background_view"
+        app:layout_constraintStart_toStartOf="@id/background_view"
+        app:layout_constraintTop_toBottomOf="@id/text_time" />
+
+    <TextView
+        android:id="@+id/text_cycle_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/progress_circular"
+        app:layout_constraintStart_toStartOf="@id/background_view"
+        app:layout_constraintEnd_toEndOf="@id/background_view"
+        tools:text="Cycle 1 of 8 | Set 1 of 1" />
+
+    <Button
+        android:id="@+id/button_toggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/pause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_reset"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/reset"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:layout_constraintBottom_toBottomOf="@id/button_toggle"
+        app:layout_constraintStart_toEndOf="@id/button_toggle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 
