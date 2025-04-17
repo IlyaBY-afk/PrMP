@@ -15,4 +15,7 @@
     <color name="phase_rest_between_sets">#8BC34A</color>
     <color name="phase_cooldown">#29B6F6</color>
     <color name="phase_finished">#9C27B0</color>
+    
+    <color name="splash_background">#121212</color>
+    <color name="splash_text">#4CAF50</color>
 </resources> 
